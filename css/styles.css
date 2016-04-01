@@ -1,8 +1,8 @@
- div {
-   border: 1px solid black;
- }
 #leftBar {
   background: #90bb90;
+}
+#rightBar {
+  margin-left: 20px;
 }
 h4 {
   color: #f3deb5;

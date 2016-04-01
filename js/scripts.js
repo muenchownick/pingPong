@@ -21,14 +21,14 @@ if ((0 < number && number < 100) && number % 3 === 0 && number % 15 != 0) {
     return false;
   }
 };
-
-// to clear the pages text function *not working
+// to clear the pages text function
 function clearText() {
-    document.getElementById('results').value="";
+    document.getElementById("results").innerHTML="";
 };
-// breaker
+
+// *************************** breaker ***************************
 // user interface logic
-// breaker
+// *************************** breaker ***************************
 
 $(document).ready(function(){
   $("form#pingPong").submit(function(event) {
@@ -40,9 +40,3 @@ $(document).ready(function(){
     $("form#pingPong")[0].reset();
   });
 });
-
-// not working at the moment?
-    // $("#myform")[0].reset();
-// two ways to reset inputform
-    // $("form#pingPong").each(function(){
-    //     this.reset();
