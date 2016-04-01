@@ -1,14 +1,9 @@
-li {
-  list-style-type: none;
-}
  div {
    border: 1px solid black;
  }
-
 #leftBar {
   background: #90bb90;
 }
-
 h4 {
   color: #f3deb5;
 }

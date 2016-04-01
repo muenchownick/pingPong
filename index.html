@@ -11,13 +11,16 @@
   <body>
     <div class="container-fluid">
       <div class="jumbotron">
-        <h1>Ping Pong Jumbotron!</h1>
+        <h1>Ping Pong Jumbotrong!</h1>
       </div>
       <div class="col-sm-3" id="leftBar">
         <h2>About Ping Pong</h2>
         <h4>Created by:</h4>
         <p class="white">Nickolas Muenchow</p>
-        <h4>
+        <h4>GitHub Username/URL:</h4>
+        <a href="https://github.com/muenchownick">muenchownick</a>
+        <h4>Level 2 Test for:</h4>
+        <p class="white">Java</p>
       </div>
       <div class="col-sm-9" id="rightBar">
         <h1> Let's play! </h1>
@@ -27,17 +30,17 @@
           <li>Numbers divisible by 3 become "ping"</li>
           <li>Numbers divisible by 5 become "pong"</li>
           <li>Numbers divisible by 15 become "pingpong"</li>
+          <li>Numbers are in range of 1-100</li>
         </ol>
       <form id="pingPong">
         <div class="form-group">
         <label for="pingPongs">Enter Number:</label>
         <input id="pingPongs" type="number">
         <button type="submit" class="btn">Ping Pong!</button>
+        <input type="reset" value="Reset" onClick="clearText()">
       </div>
       </form>
       <div id="results">
-        <ul id="listItems">
-        </ul>
       </div>
     </div>
 
