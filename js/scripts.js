@@ -22,17 +22,5 @@ $(document).ready(function(){
     var number = $("#pingPongs").val();
     var result = ping(number);
     $("#result").text(result);
-    alert(number);
-
-
-
-
   });
-
-
-
-
-
-
-
 });
