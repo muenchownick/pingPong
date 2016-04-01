@@ -7,6 +7,8 @@ if (number % 3 === 0 && number % 15 != 0) {
   $("#results").append("<li>pingpong</li>");
 } else if (number % 3 != 0 && number % 5 != 0 && number % 15 != 0 ){
   $("#results").append(number);
+  $("#results").append("<br>");
+
 }
   else {
     return false;
